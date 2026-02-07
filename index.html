@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JATS | Job Application Tracking System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div class="logo">JATS</div>
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#" data-link="jobs">Find Jobs</a></li>
+                    <li><a href="#" data-link="login" class="nav-btn">Login</a></li>
+                    <li><a href="#" data-link="register" class="nav-btn nav-btn-primary">Get Started</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="view-container">
+            <!-- Dynamic content injected here -->
+            <div class="hero-section fade-in">
+                <h1>Find Your Next <span style="color:var(--primary)">Mission</span></h1>
+                <p>Strategic career growth powered by intelligent tracking.</p>
+            </div>
+        </main>
+    </div>
+
+    <div id="toast-container"></div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
